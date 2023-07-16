@@ -1,0 +1,40 @@
+h1{
+    color:#560bad;
+}
+
+a:link{
+    color:#fb8500; /*Se aplica para los elementos que no se dieron clic*/
+    text-decoration: none; /*Quita el subrallado*/
+}
+
+a:visited{
+    color:#219ebc; /*Se aplica cuando ya se toco una vez en el link*/
+    text-decoration: none;
+}
+
+a:hover{  /*Cuando nos ponemos encima del link*/
+    color:#8ecae6;
+    text-decoration: underline;
+}
+
+a:active{
+    color: #023047;
+    text-decoration: underline;
+}
+
+/*Simulación de boton*/
+a:link, a:visited{
+    background-color: #b5179e;
+    color:white;
+    padding: 15px 25px;
+    text-align: center;
+    text-align: none;
+    display: inline-block; /*No se enciman los elementos*/
+}
+
+a:hover, a:active{
+    background-color: #f72585;
+}
+
+
+

@@ -1,0 +1,16 @@
+h1{
+    color:blue;
+    margin: auto 50px; /*Centrar los elementos de manera horizontal*/
+    text-align: center; /*Centra bien el texto*/
+}
+
+p{
+    color: white;
+    background-color: crimson;
+    padding: 15px; /* puede servir para decorar*/
+    border: 10px solid powderblue; /*puede servir para decorar*/ 
+    margin:20px; /*Dejar espacio entre disatintos elementos
+     si se quieren editar todos los elementos se pone primero arriba, derecha, abajo e izquierda*/
+    
+    
+}
