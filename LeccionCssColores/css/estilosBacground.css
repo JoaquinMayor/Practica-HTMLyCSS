@@ -1,0 +1,15 @@
+body{
+    background-color: dodgerblue;
+    color: cornsilk;
+    background-image: url("/img/fondo.png"); /*Poner imagen de fondo en la pantalla*/
+    background-repeat: no-repeat; /*Configurar repetición de la imagen*/
+    background-position: right top;
+    background-attachment: fixed; /*Mantiene fija la imagen al hacer sroll*/
+    background: dodgerblue url("/img/fondo.png") no-repeat rigth top; /*Ahorra espacioes lo mismo de arriba menos lo de fixed eso si tiene que estar separado*/
+}
+
+h1{
+    text-align: center;
+    
+    height: 1000px;
+}

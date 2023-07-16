@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    color: #e63946;
+}
+
+div{
+    padding: 10px;
+    border: 1px solid #457b9d;
+    /*margin: 0 auto; Se centra el elemento con auto*/
+    margin-left: 100px;
+    background-color: #f1faee;
+    max-width: 300px; /*hace responsibo y se ajusta a la pantalla*/
+    outline: 10px solid #a8dadc; /*Barra fuera del borde*/
+    outline-offset: 5px; /*Separa el outline del borde*/
+    box-sizing: border-box; /*ancho fijo de lo que determinamos en width*/
+    
+}
+
+p.interno{
+    margin-left: inherit; /*hereda el margen de elemento en cual esta contendido en este caso el div*/
+}
+
