@@ -1,0 +1,28 @@
+h1, div, p{
+    border: 3px solid blueviolet;
+    text-align: center;
+    color: cornflowerblue;
+    padding: 10px;
+    display: block; /*Todos los elementos en una misma linea con inline*/
+}
+
+h1{
+    display: none; /*Oculta el elemento y el espacio disponible*/
+}
+p{
+    visibility: hidden; /*Oculta el elemento pero guarad el espacio*/
+}
+
+span{
+    display: block;
+    border: 1px solid blue;
+}
+
+a{
+    display: block;
+    text-align: left;
+}
+
+li{
+    display: inline;
+}
