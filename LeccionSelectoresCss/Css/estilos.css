@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+    color: #e63946;
+}
+
+div.contenedor{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    border: 3px solid #a8dadc;
+    padding: 15px;
+    color: #457b9d;
+    text-align: center;
+}
+
+div.contenedor.descendiente p{ /*Para el decendiente se tiene que poner al final separado el tipo de elemento que se quiere editar*/
+    background-color: #fdffb6;
+} /*Deciende a todkos los elementos del ese tipo que se encuentren dentro de ese contenedor*/
+
+div.contenedor.hijo > p{ /*Hace que todos los hijos de ese elemento se vean afectados, no asi que luego se meten en otro elemento como section*/
+    background-color: #ffc6ff;
+}
+
+div.contenedor.adyacente + p{  /*Solo afecta al elemento que le sige al elemento de la clase*/
+    background-color: #caffbf;
+}
+
+div.contenedor.hermano ~ p{ /*Afecta a todos los elementos adyacentes del tipo determinado*/
+    text-align: center;
+    background-color: #9bf6ff;
+}

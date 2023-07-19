@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+div.posicionamiento{
+   /* max-width: 50%;*/
+    border: 3px solid firebrick;
+    /*margin: auto;*/
+    position: sticky; 
+    position: -webkit-sticky; /*Para que funcione bien en safari y no funciona en internet explorer*/
+    top: 0;
+    left: 0px;
+    
+    /*Tipos de position: static, relativo, fixed, absolut, sticky*/
+    /*Static es el por defecto*/
+    /*Relative permite que afecten los parametros de top, rigth, left y bootom, no afecta la posición del elemento, sino que se agregan como si no estuviera*/
+    /*Fixed el elemento se coloca de manera relativa a la pantalla, se queda fija en la pantalla*/
+    /*Absolute como fixed pero se queda fijo, segun la posición que se le indique dentro del elemento padre en el que se encuentre*/
+    /*Sticky se posiciona del tipo relativa péro sigue la pantalla quedandose arriba (Para menú de navegación)*/
+    /*z-index es la posición de los elementos uno delante de otro, como las capas en dibujo*/
+}
+
+div.z-index{
+    position: static;
+    padding: 15px;
+    border: 3px solid greenyellow;
+    background-color: whitesmoke;
+}
+
+div.relativo{
+    position: relative;
+    top: -20px;
+    left: 10px;
+    padding: 15px;
+    border: 3px solid blueviolet;
+    background-color: whitesmoke;
+    z-index: 1;
+}
+
+div.absoluto{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+    border: 3px solid cornflowerblue;
+    background-color: whitesmoke;
+    z-index: -1;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Css/estilos.css"/>
+    <title>Selectores Combinados en CSS</title>
+</head>
+
+<body>
+    <h1>Selectores Combinados en CSS</h1>
+
+    <div class="contenedor descendiente">
+        Selectores Decendientes (en cualquier nivel interno):
+        <p>Primer renglón</p>
+        <p>Segundo renglón</p>
+
+        <section>
+                <p>Tercer renglón</p>
+        </section>
+    </div>
+
+    <div class="contenedor hijo">
+        Selectores Hijo (child):
+        <p>Primer renglón</p>
+        <p>Segundo renglón</p>
+
+        <section>
+                <p>Tercer renglón</p>
+        </section>
+    </div>
+
+    <div class="contenedor adyacente">
+        Selectores Adyacente:
+        <p>Primer renglón</p>
+    </div>
+    <p style="text-align: center;">Segundo renglón</p>
+    <p style="text-align: center;">Tercer renglón</p>
+
+    <div class="contenedor hermano">
+        Selectores Adyacente:
+        <p>Primer renglón</p>
+    </div>
+    <p>Segundo renglón</p>
+    <p >Tercer renglón</p>
+
+</body>
+</html>
