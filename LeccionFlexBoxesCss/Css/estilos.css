@@ -7,6 +7,8 @@ div.contenedor{
     display: flex;
     background-color: #560bad;
     flex-direction: row; /*Se ponen uno arriba del otro y ocupan todo el espacio, con reverse se muentras alrevez los elementos*/
+    object-fit:cover; /*Hace que no se arruine la imagen*/
+    flex: 50%; /*El elemento ocupa el porcentaje del contenedor del flex*/
     flex-wrap: wrap; /*Hace responsivo los elementos*/
     flex-flow: row wrap; /*Aplicar los elementos de arriba pero en una misma linea*/
     justify-content: center; /*Acomodar elemento flex-start es el de defecto, center los centra, space-between se ubica en cada uno de los
